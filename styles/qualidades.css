@@ -32,3 +32,13 @@
     font-size: 14px;
 }
 
+@media screen and (min-width: 744px){
+    .qualidades{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .qualidades__container{
+        width: 45%;
+    }
+}

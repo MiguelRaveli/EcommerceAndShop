@@ -57,8 +57,6 @@
   padding: 0.5em 1em;
 }
 
-
-
 .card__icone-promocao {
   left: 20%;
 }
@@ -109,14 +107,25 @@
 
 .card__acoes {
   display: flex;
-  position: absolute; 
+  position: absolute;
   top: 1em;
   width: 200px;
   justify-content: space-between;
-
 }
 
 .card__icone-promocao,
 .card__icone-favorito {
   padding: 0 1em;
+}
+
+.mostrar-produtos__container{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 744px) {
+  .mostrar-produtos {
+    display: flex;
+    flex-direction: row;
+  }
 }

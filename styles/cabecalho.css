@@ -55,3 +55,43 @@
     text-align: center;
     background-position: 0 50%;
 }
+
+.cabecalho__promocao-followus{
+  display: none;
+}
+
+@media screen and (min-width: 744px){
+
+  .cabecalho__promocao-followus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .promocao-followus-titulo{
+    color: var(--branco);
+    font-size: 14px;
+    margin-right: .5em;
+  }
+  .cabecalho__promocao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .cabecalho__promocao-titulo{
+    padding: 1em 0;
+    font-size: 16px;
+  }
+  .cabecalho__promocao-followus img{
+    margin-right: .3em;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .container__hamburguer__titulo{
+    display: flex;
+    align-items: center;
+  }
+}

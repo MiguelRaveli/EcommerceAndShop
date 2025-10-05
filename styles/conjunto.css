@@ -38,3 +38,20 @@
   border-radius: 4px;
   font-size: 14px;
 }
+
+@media screen and (min-width: 744px) {
+  .conjunto {
+    height: 293px;
+    width: 552px;
+    background-image: url("../imgs/Products\ medio.svg");
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .conjunto__container{
+    left: 4em;
+    width: 50%;
+  }
+  .container-ancora{
+    width: 50%;
+  }
+}

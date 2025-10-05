@@ -6,6 +6,27 @@
   padding: 0.5em 1em;
 }
 
-.banner_imagem{
+.banner__imagem{
     margin-bottom: 1em;
+}
+
+.banner_imagens-medias{
+  display: none;
+}
+
+@media screen and (min-width: 744px){
+  .banner__imagem{
+    display: none;
+  }
+
+  .banner_imagens-medias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner__imagem-medio{
+    margin: .5em .5em;
+  }
 }
