@@ -57,11 +57,7 @@
   padding: 0.5em 1em;
 }
 
-.card__icone-promocao,
-.card__icone-favorito {
-  position: absolute;
-  top: 1em;
-}
+
 
 .card__icone-promocao {
   left: 20%;
@@ -98,7 +94,7 @@
   padding-left: 1em;
 }
 
-.card__container img{
+.card__container img {
   padding-right: 1em;
 }
 
@@ -109,4 +105,18 @@
 
 .swiper-scrollbar {
   display: none;
+}
+
+.card__acoes {
+  display: flex;
+  position: absolute; 
+  top: 1em;
+  width: 200px;
+  justify-content: space-between;
+
+}
+
+.card__icone-promocao,
+.card__icone-favorito {
+  padding: 0 1em;
 }
