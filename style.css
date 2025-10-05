@@ -1,0 +1,27 @@
+@import url("styles/cabecalho.css");
+@import url("styles/propaganda.css");
+@import url("styles/mostrar-produtos.css");
+@import url("styles/banner.css");
+@import url("styles/conjunto.css");
+@import url("styles/qualidades.css");
+@import url("styles/rodape.css");
+:root {
+  --cor-de-fundo: #ebecee;
+  --font-principal: "Montserrat";
+  --font-secundaria: "Lato";
+  --azul-claro: #438DB8;
+  --cinza: #666666;
+  --cinza-claro: #B4B4B4;
+  --cinza-secundario: #5F5F5F;
+  --preto: #000000;
+  --branco: #FFFFFF;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-principal);
+}
+
+

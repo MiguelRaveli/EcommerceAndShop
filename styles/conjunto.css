@@ -1,0 +1,40 @@
+.conjunto {
+  width: 100%;
+  height: 233px;
+  background-image: url("../imgs/Products.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conjunto__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 65%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  position: relative;
+  left: 1em;
+}
+
+.container-titulo {
+  text-align: center;
+  color: var(--branco);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.container-ancora {
+  color: var(--branco);
+  text-decoration: none;
+  background-image: url("../imgs/right\ arrow\ white.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  padding: 12px;
+  width: 80%;
+  border: 1px solid var(--branco);
+  border-radius: 4px;
+  font-size: 14px;
+}

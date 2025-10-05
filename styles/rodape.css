@@ -1,0 +1,48 @@
+.rodape__titulo {
+  color: var(--preto);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.rodape__texto {
+  font-size: 14px;
+  margin-bottom: 1em;
+}
+
+.rodape__titulo-socialmedia {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+.socialmedia-imagem {
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+}
+
+.rodape_lista li {
+  margin-bottom: 1em;
+}
+
+.rodape_lista-item {
+  font-size: 14px;
+  color: var(--preto);
+  text-decoration: none;
+}
+
+.rodape__container{
+    padding-left: 2em;
+}
+
+.creditos {
+  background-color: var(--azul-claro);
+  width: 100%;
+}
+
+.creditos__titulo {
+  color: var(--branco);
+  font-size: 14px;
+  padding: 1.5em;
+  text-align: center;
+}

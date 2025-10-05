@@ -1,0 +1,57 @@
+.cabecalho__promocao {
+  background-color: var(--azul-claro);
+}
+.cabecalho__promocao-titulo {
+  font-size: 14px;
+  color: var(--branco);
+  text-align: center;
+  padding: 1em 2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 1em;
+  gap: 1.5em;
+}
+
+.container__hamburguer__titulo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+}
+
+.container__titulo {
+  color: var(--azul-claro);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.container__navegacao {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5em;
+}
+
+.container__navegacao-logar {
+  padding: 12px;
+
+  margin: 0 auto;
+  width: 157px;
+  height: 13px;
+
+  background: var(--branco);
+  border: 1px solid var(--cinza-claro);
+  border-radius: 4px;
+}
+
+.container__navegacao-logar::placeholder{
+    font-family: var(--font-principal);
+    background: url("../imgs/user_icon.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 0 50%;
+}

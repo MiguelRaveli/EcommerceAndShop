@@ -1,0 +1,17 @@
+.propaganda{
+    background-image: url("../imgs/produtos_propraganda.svg");
+    width: 100%;
+    height: 392px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.propaganda__titulo{
+    font-size: 24px;
+    color: var(--branco);
+    font-family: var(--font-secundaria);
+    padding: 1.5em 1em;
+    font-weight: 700;
+}
