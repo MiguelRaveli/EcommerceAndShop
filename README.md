@@ -8,4 +8,4 @@ Um projeto de estudo focado em recriar um layout de e-commerce, aplicando concei
 
 Este é um projeto estático, não necessita de instalação de dependências.
 
-[Página]()
+[Página Online](https://miguelraveli.github.io/EcommerceAndShop/)
