@@ -46,3 +46,13 @@
   padding: 1.5em;
   text-align: center;
 }
+
+
+@media screen and (min-width: 1440px){
+  .rodape__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2em 0;
+  }
+}

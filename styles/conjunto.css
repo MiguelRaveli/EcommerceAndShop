@@ -55,3 +55,28 @@
     width: 50%;
   }
 }
+
+
+@media screen and (min-width: 1440px) {
+  .conjunto {
+    height: 345px;
+    width: 1242px;
+    background-image: url("../imgs/Products\ grande.svg");
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .conjunto__container{
+    left: 20em;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-ancora{
+    width: 50%;
+  }
+  .container-titulo{
+    font-size: 26px;
+  }
+}

@@ -48,50 +48,95 @@
   border-radius: 4px;
 }
 
-.container__navegacao-logar::placeholder{
-    font-family: var(--font-principal);
-    background: url("../imgs/user_icon.svg");
-    background-repeat: no-repeat;
-    text-align: center;
-    background-position: 0 50%;
+.container__navegacao-logar::placeholder {
+  font-family: var(--font-principal);
+  background: url("../imgs/user_icon.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: 0 50%;
 }
 
-.cabecalho__promocao-followus{
+.cabecalho__promocao-followus {
   display: none;
 }
 
-@media screen and (min-width: 744px){
+.cabecalho__promocao-contato {
+  display: none;
+}
 
-  .cabecalho__promocao-followus{
+@media screen and (min-width: 744px) {
+  .cabecalho__promocao-followus {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .promocao-followus-titulo{
+  .promocao-followus-titulo {
     color: var(--branco);
     font-size: 14px;
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
-  .cabecalho__promocao{
+  .cabecalho__promocao {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .cabecalho__promocao-titulo{
+  .cabecalho__promocao-titulo {
     padding: 1em 0;
     font-size: 16px;
   }
-  .cabecalho__promocao-followus img{
-    margin-right: .3em;
+  .cabecalho__promocao-followus img {
+    margin-right: 0.3em;
   }
-  .container{
+  .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-  .container__hamburguer__titulo{
+  .container__hamburguer__titulo {
     display: flex;
     align-items: center;
+  }
+  .cabecalho__promocao-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cabecalho__promocao-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .contato-telefone-text {
+    color: var(--branco);
+    font-size: 14px;
+    margin-right: 1em;
+  }
+  .contato-telefone-imagem {
+    margin-right: 0.3em;
+  }
+  .cabecalho__promocao-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .container__hamburguer__titulo img {
+    display: none;
+  }
+  .ancoras-lista__item {
+    color: var(--cinza);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .ancoras-lista {
+    display: flex;
+  }
+  .ancoras-lista a{
+    margin: 0 .6em;
   }
 }
